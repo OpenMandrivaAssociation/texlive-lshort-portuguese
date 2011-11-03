@@ -1,3 +1,9 @@
+# revision 22569
+# category Package
+# catalog-ctan /info/lshort/portuguese
+# catalog-date 2011-05-22 11:03:26 +0200
+# catalog-license pd
+# catalog-version 5.01.0
 Name:		texlive-lshort-portuguese
 Version:	5.01.0
 Release:	1
@@ -21,6 +27,7 @@ LaTeX2e.
 %files
 %doc %{_texmfdistdir}/doc/latex/lshort-portuguese/pt-lshort-5.01.0.src.tar.gz
 %doc %{_texmfdistdir}/doc/latex/lshort-portuguese/pt-lshort.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -31,3 +38,5 @@ LaTeX2e.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
