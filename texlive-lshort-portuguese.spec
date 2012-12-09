@@ -35,3 +35,17 @@ LaTeX2e.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 5.01.0-2
++ Revision: 753479
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 5.01.0-1
++ Revision: 718898
+- texlive-lshort-portuguese
+- texlive-lshort-portuguese
+- texlive-lshort-portuguese
+- texlive-lshort-portuguese
+
