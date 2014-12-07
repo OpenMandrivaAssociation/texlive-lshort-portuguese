@@ -6,7 +6,7 @@
 # catalog-version 5.01.0
 Name:		texlive-lshort-portuguese
 Version:	5.01.0
-Release:	8
+Release:	9
 Summary:	Introduction to LaTeX in Portuguese
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/portuguese
