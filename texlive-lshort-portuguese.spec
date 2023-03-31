@@ -1,6 +1,6 @@
 Name:		texlive-lshort-portuguese
 Version:	55643
-Release:	1
+Release:	2
 Summary:	Introduction to LaTeX in Portuguese
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/portuguese
